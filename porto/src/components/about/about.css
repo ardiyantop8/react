@@ -97,11 +97,15 @@
 
     .about__content {
         text-align: center;
+        padding: 1rem;
     }
 
     .about__content p {
         margin: 1.5rem 0;
     }
-    
-}
 
+    .about__content__details {
+        word-wrap: break-word;
+    }
+
+}

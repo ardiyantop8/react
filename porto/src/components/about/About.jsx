@@ -42,7 +42,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>{penjelasanRinciAbout}</p>
+          <p className="about__content__details">{penjelasanRinciAbout}</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

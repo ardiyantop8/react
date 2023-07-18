@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import './experience.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
 
@@ -31,9 +31,11 @@ const Experience = () => {
       <>
         {language.map((item, index) => (
           <article key={index} className='experience__details'>
-            <BsPatchCheckFill />
-            <h4>{item.bahasa}</h4>
-            <small>{item.level}</small>
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>{item.bahasa}</h4>
+              <small>{item.level}</small>
+            </div>
           </article>
         ))}
       </>
@@ -45,9 +47,11 @@ const Experience = () => {
       <>
         {libraryLanguage.map((library, index) => (
           <article key={index} className='experience__details'>
-            <BsPatchCheckFill />
-            <h4>{library.label}</h4>
-            <small>{library.level}</small>
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>{library.label}</h4>
+              <small>{library.level}</small>
+            </div>
           </article>
         ))}
       </>
@@ -59,9 +63,11 @@ const Experience = () => {
       <>
         {toolsLanguage.map((item, index) => (
           <article key={index} className='experience__details'>
-            <BsPatchCheckFill />
-            <h4>{item.tools}</h4>
-            <small>{item.level}</small>
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>{item.tools}</h4>
+              <small>{item.level}</small>
+            </div>
           </article>
         ))}
       </>
