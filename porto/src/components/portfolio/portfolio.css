@@ -1,0 +1,11 @@
+/* ==============  MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width:1024px) {
+    
+}
+
+/* ==============  MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width:600px) {
+    #portfolio {
+        margin-top: 25rem;
+    }
+}

@@ -4,26 +4,26 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 
 const Experience = () => {
   const language = [
-    { bahasa: 'HTML', level: 'Advanced', },
-    { bahasa: 'CSS', level: 'Advanced', },
-    { bahasa: 'PHP', level: 'Advanced', },
-    { bahasa: 'Javascript', level: 'Advanced', },
-    { bahasa: 'React.JS', level: 'Advanced', },
+    { bahasa: 'HTML', level: '3+ Years', },
+    { bahasa: 'CSS', level: '3+ Years', },
+    { bahasa: 'PHP', level: '3+ Years', },
+    { bahasa: 'Javascript', level: '2+ Years', },
+    { bahasa: 'React.JS', level: '1+ Years', },
   ];
 
   const toolsLanguage = [
-    { tools: 'Sourcetree', level: 'Advanced' },
-    { tools: 'Github', level: 'Advanced' },
-    { tools: 'Navicat', level: 'Advanced' },
-    { tools: 'Postman', level: 'Advanced' },
+    { tools: 'Sourcetree', level: '3+ Years' },
+    { tools: 'Github', level: '3+ Years' },
+    { tools: 'Navicat', level: '3+ Years' },
+    { tools: 'Postman', level: '3+ Years' },
   ];
 
   const libraryLanguage = [
-    { label: "TailwindCSS", level: "Advanced", },
-    { label: "Bootstrap 5", level: "Advanced", },
-    { label: "Ant Design", level: "Advanced", },
-    { label: "Hook", level: "Advanced", },
-    { label: "Redux", level: "Advanced", },
+    { label: "TailwindCSS", level: "2+ Years", },
+    { label: "Bootstrap 5", level: "3+ Years", },
+    { label: "Ant Design", level: "1+ Years", },
+    { label: "Hook", level: "1+ Years", },
+    { label: "Redux", level: "1+ Years", },
   ]
 
   const IsiArticleLanguage = () => {
